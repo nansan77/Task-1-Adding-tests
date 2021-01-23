@@ -5,7 +5,7 @@ public class Main {
         // подготовляем данные;
         long amount = 1000_60;
         boolean registered = false;
-        long expected = 30;
+        long expected = 10;
 
         // вызываем целивой метод;
         long actual = service.calculate(amount, registered);
